@@ -1,0 +1,171 @@
+@font-face {
+  font-weight: 200;
+  font-family: "Inter";
+  src: url("../src/fonts/Inter-ExtraLight.ttf");
+}
+
+@font-face {
+  font-weight: 300;
+  font-family: "Inter";
+  src: url("../src/fonts/Inter-Light.ttf");
+}
+
+@font-face {
+  font-weight: 100;
+  font-family: "Inter";
+  src: url("../src/fonts/Inter-Thin.ttf");
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 100;
+  color: #000000;
+  height: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  background: rgb(229,229,229);
+}
+
+.header {
+  display: flex;
+  margin-bottom: 202px;
+}
+
+.menu {
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 18px;
+  font-size: 15px;
+  margin: 18px 317px 154px 50px;
+}
+
+.menu li {
+  margin-bottom: 30px;
+}
+
+.menu li:last-child {
+  margin-bottom: 0;
+}
+
+.menu a:hover {
+  color: #8b8b8b;
+}
+
+.photographer-name {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  top: 350px;
+  position: absolute;
+  padding: 0 15px 30px 0;
+  background: rgb(229,229,229);
+  background: linear-gradient(90deg, rgba(229,229,229,0.85) 50%, rgba(229,229,229,0) 100%);
+}
+
+.text-name {
+  font-weight: 100;
+  font-size: 28px;
+  line-height: 34px;
+}
+
+.header-title {
+  font-weight: 300;
+  font-size: 71px;
+  line-height: 86px;
+}
+
+.header-img {
+  border-radius: 5px;
+}
+
+main {
+  max-width: 1362px;
+  margin: 0 auto;
+}
+
+.portfolio {
+  
+}
+
+h2 {
+  font-weight: 100;
+  font-size: 56px;
+  line-height: 68px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+h2::after {
+  content: '';
+  position: absolute;
+  width: 207px;
+  height: 2px;
+  top: 30px;
+  left: 385px;
+  background: rgba(95, 93, 93, 0.37);
+  border-radius: 4px;
+}
+
+
+.portfolio-images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 75px;
+}
+
+article img {
+  padding: 10.5px;
+  border-radius: 15px;
+}
+
+.watch-more {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.watch-more a {
+  margin: 0 auto;
+  width: 288px;
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 11px 52px;
+  text-align: center;
+  background: #F8F8F8;
+  border: 1px solid #000000;
+}
+
+.watch-more a:hover {
+  color: #fff;
+  font-weight: 300;
+  background: #8b8b8b;
+}
+
+@media (max-width: 1411px) {
+  .header-img {
+    width: 80%;
+    height: 80%;
+  }
+}
