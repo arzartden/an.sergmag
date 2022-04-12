@@ -146,6 +146,7 @@ article img {
 }
 
 .watch-more a {
+  display: block;
   margin: 0 auto;
   width: 288px;
   font-weight: 200;
