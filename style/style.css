@@ -163,9 +163,37 @@ article img {
   background: #8b8b8b;
 }
 
-@media (max-width: 1411px) {
-  .header-img {
-    width: 80%;
-    height: 80%;
+@media (max-width: 910px) {
+  .portfolio {
+    text-align: center;
+  }
+
+  h2 {
+    padding: 0 300px;
+  }
+
+  h2::after {
+    content: '';
+    position: absolute;
+    width: 207px;
+    height: 0;
+  }
+
+  .portfolio-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin-bottom: 75px;
+  }
+  
+  article img {
+    padding: 10.5px 260px;
+    border-radius: 15px;
+  }
+
+  .watch-more {
+    padding: 0 340px;
   }
 }
